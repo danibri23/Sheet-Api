@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <iframe
+        width="600"
+        height="371"
+        seamless
+        frameborder="0"
+        scrolling="no"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRgpwTwpU-l6o_kCOcd__Fa5mGd68ent7ksluy2MoQ03LInnHu_2HiRZX1PqPJt1WQC6D66Dm1VK7OP/pubchart?oid=776375856&amp;format=interactive"
+      ></iframe>
+    </div>
+    <div>
+      <button
+        data-tooltip-target="tooltip-default"
+        type="button"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Default tooltip
+      </button>
+      <div
+        id="tooltip-default"
+        role="tooltip"
+        class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700"
+      >
+        Tooltip content
+        <div class="tooltip-arrow" data-popper-arrow></div>
+      </div>
+    </div>
+
+    <div></div>
+    <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+  </body>
+</html>
